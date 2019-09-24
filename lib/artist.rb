@@ -12,7 +12,7 @@ class Artist
     @@all
   end
 
-  def songs 
-    @@all 
+  def songs
+    @@all
   end 
 end
