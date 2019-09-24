@@ -5,4 +5,8 @@ class Artist
     @name = name
     @songs = []
   end
+
+  def new_song(song)
+    @songs << song
+  end 
 end
