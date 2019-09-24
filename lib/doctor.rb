@@ -10,5 +10,6 @@ class Doctor
 
   def new(name)
     doctor = Doctor.new(name, self)
+    self.doctors.last 
   end
 end
