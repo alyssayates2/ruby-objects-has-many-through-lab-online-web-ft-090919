@@ -7,4 +7,8 @@ class Doctor
     @name = name
     @@all << self 
   end
+
+  def new(name)
+    doctor = Doctor.new(name, self)
+  end 
 end
