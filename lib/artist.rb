@@ -8,5 +8,9 @@ class Artist
 
   def new_song(song)
     @songs << song
+  end
+
+  def songs
+    @songs
   end 
 end
